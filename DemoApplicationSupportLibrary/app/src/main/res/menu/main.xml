@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_alarm"
+        android:icon="@mipmap/ic_access_alarm_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Alarm" />
+    <item
+        android:id="@+id/action_backup"
+        android:icon="@mipmap/ic_backup_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Backup" />
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@mipmap/ic_mode_edit_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Edit" />
+</menu>
